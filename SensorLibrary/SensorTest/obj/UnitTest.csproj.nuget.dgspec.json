@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorTest\\SensorTest.csproj": {}
+    "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorTest\\UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorLibrary\\SensorLibrary.csproj": {
+    "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorLibrary\\ClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorLibrary\\SensorLibrary.csproj",
-        "projectName": "SensorLibrary",
-        "projectPath": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorLibrary\\SensorLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorLibrary\\ClassLibrary.csproj",
+        "projectName": "ClassLibrary",
+        "projectPath": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorLibrary\\ClassLibrary.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorLibrary\\obj\\",
         "projectStyle": "PackageReference",
@@ -64,12 +64,12 @@
         }
       }
     },
-    "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorTest\\SensorTest.csproj": {
+    "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorTest\\UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorTest\\SensorTest.csproj",
-        "projectName": "SensorTest",
-        "projectPath": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorTest\\SensorTest.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorTest\\UnitTest.csproj",
+        "projectName": "UnitTest",
+        "projectPath": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorTest\\UnitTest.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorTest\\obj\\",
         "projectStyle": "PackageReference",
@@ -93,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorLibrary\\SensorLibrary.csproj": {
-                "projectPath": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorLibrary\\SensorLibrary.csproj"
+              "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorLibrary\\ClassLibrary.csproj": {
+                "projectPath": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorLibrary\\ClassLibrary.csproj"
               }
             }
           }

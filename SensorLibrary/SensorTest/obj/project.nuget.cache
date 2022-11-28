@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XhROwzerU35q2SBysUonefjDB36mOU+ESoC+glVJHEP+enl9EgYFcAzBv/bGyvk72bdmpxPATkLb7S1A8L85xg==",
+  "dgSpecHash": "TOhLIDF24lrK6mQSiR0k71o8SPyA0+y3NGtJo4ltZkjbxf0AzB9bVyD5jUsXkxDzDs33js71XxDHV+KB/D0Dvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\Desktop\\Prøveeksamen\\Class-Library\\SensorLibrary\\SensorTest\\SensorTest.csproj",
+  "projectFilePath": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorTest\\UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

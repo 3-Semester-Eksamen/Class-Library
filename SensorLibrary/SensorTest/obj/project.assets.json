@@ -1788,6 +1788,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "ClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary.dll": {}
+        }
       }
     }
   },
@@ -6325,10 +6335,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "ClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SensorLibrary/ClassLibrary.csproj",
+      "msbuildProject": "../SensorLibrary/ClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ClassLibrary >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.8",
       "MSTest.TestFramework >= 2.2.8",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
@@ -6342,11 +6358,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\Desktop\\Prøveeksamen\\Class-Library\\SensorLibrary\\SensorTest\\SensorTest.csproj",
-      "projectName": "SensorTest",
-      "projectPath": "C:\\Users\\andre\\Desktop\\Prøveeksamen\\Class-Library\\SensorLibrary\\SensorTest\\SensorTest.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorTest\\UnitTest.csproj",
+      "projectName": "UnitTest",
+      "projectPath": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorTest\\UnitTest.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\Desktop\\Prøveeksamen\\Class-Library\\SensorLibrary\\SensorTest\\obj\\",
+      "outputPath": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6367,7 +6383,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorLibrary\\ClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\andre\\Desktop\\Class-Library\\SensorLibrary\\SensorLibrary\\ClassLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
