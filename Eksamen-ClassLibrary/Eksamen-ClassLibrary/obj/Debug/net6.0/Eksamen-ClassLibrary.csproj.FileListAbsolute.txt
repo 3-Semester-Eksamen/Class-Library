@@ -1,0 +1,12 @@
+C:\Users\andre\Desktop\Class-Library\Eksamen-ClassLibrary\Eksamen-ClassLibrary\bin\Debug\net6.0\Eksamen-ClassLibrary.deps.json
+C:\Users\andre\Desktop\Class-Library\Eksamen-ClassLibrary\Eksamen-ClassLibrary\bin\Debug\net6.0\Eksamen-ClassLibrary.dll
+C:\Users\andre\Desktop\Class-Library\Eksamen-ClassLibrary\Eksamen-ClassLibrary\bin\Debug\net6.0\Eksamen-ClassLibrary.pdb
+C:\Users\andre\Desktop\Class-Library\Eksamen-ClassLibrary\Eksamen-ClassLibrary\obj\Debug\net6.0\Eksamen-ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\andre\Desktop\Class-Library\Eksamen-ClassLibrary\Eksamen-ClassLibrary\obj\Debug\net6.0\Eksamen-ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Desktop\Class-Library\Eksamen-ClassLibrary\Eksamen-ClassLibrary\obj\Debug\net6.0\Eksamen-ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\Class-Library\Eksamen-ClassLibrary\Eksamen-ClassLibrary\obj\Debug\net6.0\Eksamen-ClassLibrary.AssemblyInfo.cs
+C:\Users\andre\Desktop\Class-Library\Eksamen-ClassLibrary\Eksamen-ClassLibrary\obj\Debug\net6.0\Eksamen-ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\Class-Library\Eksamen-ClassLibrary\Eksamen-ClassLibrary\obj\Debug\net6.0\Eksamen-ClassLibrary.dll
+C:\Users\andre\Desktop\Class-Library\Eksamen-ClassLibrary\Eksamen-ClassLibrary\obj\Debug\net6.0\refint\Eksamen-ClassLibrary.dll
+C:\Users\andre\Desktop\Class-Library\Eksamen-ClassLibrary\Eksamen-ClassLibrary\obj\Debug\net6.0\Eksamen-ClassLibrary.pdb
+C:\Users\andre\Desktop\Class-Library\Eksamen-ClassLibrary\Eksamen-ClassLibrary\obj\Debug\net6.0\ref\Eksamen-ClassLibrary.dll
