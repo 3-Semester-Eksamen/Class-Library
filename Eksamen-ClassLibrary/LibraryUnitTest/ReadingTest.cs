@@ -10,31 +10,46 @@ namespace LibraryUnitTest
     [TestClass]
     public class ReadingTest
     {
-        Reading reading = new Reading { };
+        Reading readingCorrect = new Reading { Id = 1, MacAddressSensor = "DADWDA", OpenedBy = 1, Time = DateTime.Now.ToString() };
+        Reading readingMacNull = new Reading { Id = 2, MacAddressSensor = null, OpenedBy = 1, Time = DateTime.Now.ToString() };
+        Reading readingMacTooShort = new Reading { Id = 3, MacAddressSensor = "D", OpenedBy = 1, Time = DateTime.Now.ToString() };
+        Reading readingOpenedTooShort = new Reading { Id = 5, MacAddressSensor = "DADWDA", OpenedBy = -1, Time = DateTime.Now.ToString() };
 
         [TestMethod]
-        public void ValidateMacAddressSensor()
+        public void ValidateMacAddressSensorTest()
         {
+            readingCorrect.ValidateMacAddressSensor();
+            Assert.ThrowsException<ArgumentNullException>(() => readingMacNull.ValidateMacAddressSensor());
+            Assert.ThrowsException<ArgumentOutOfRangeException>(() => readingMacTooShort.ValidateMacAddressSensor());
+        }
 
+        public void OpenedBy(int openedBy)
+        {
+            readingCorrect.OpenedBy = openedBy;
+            readingCorrect.ValidateOpenedBy();
         }
 
         [TestMethod]
-        public void ValidateOpenedBy()
+        public void ValidateOpenedByTest()
         {
-
-        }
-
-        [TestMethod]
-        public void ValidateTimeStamp()
-        {
-
+            Assert.ThrowsException<ArgumentOutOfRangeException>(() => readingOpenedTooShort.ValidateOpenedBy());
         }
 
         [TestMethod]
         public void ValidateTest()
         {
-
+            readingCorrect.Validate();
+            Assert.ThrowsException<ArgumentNullException>(() => readingMacNull.Validate());
+            Assert.ThrowsException<ArgumentOutOfRangeException>(() => readingMacTooShort.Validate());
+            Assert.ThrowsException<ArgumentOutOfRangeException>(() => readingOpenedTooShort.Validate());
         }
 
+        [TestMethod]
+        public void ToStringTest()
+        {
+            readingCorrect.Time = "04/12/2022 16.00.00";
+            string str = readingCorrect.ToString();
+            Assert.AreEqual("{Id=1, MacAddressSensor=DADWDA, OpenedBy=1, Time=04/12/2022 16.00.00}", str);
+        }
     }
 }
